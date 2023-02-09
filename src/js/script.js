@@ -51,7 +51,6 @@ function showMenu(selectedTask) {
 }
 function updateStatus(selectedTask) {
   let taskName = selectedTask.parentElement.lastElementChild;
-  console.log(taskName);
   if (selectedTask.checked) {
     taskName.classList.add("checked");
     todos[selectedTask.id].status = "completed";

@@ -9,7 +9,8 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+    background: linear-gradient(90deg, rgb(30, 0, 36) 0%, rgba(153, 15, 221, 1) 45%, rgb(76, 0, 255) 81%);
+    ;
 }
 
 
@@ -24,7 +25,9 @@ body {
     margin: 137px auto;
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 43px -6px rgba(235, 3, 61, 1);
+    -moz-box-shadow: 0px 0px 43px -6px rgba(235, 3, 61, 1);
+    box-shadow: 0px 0px 43px -6px rgba(235, 3, 61, 1);
 }
 
 .task-input {
@@ -56,7 +59,7 @@ body {
 }
 
 .task-input input::placeholder {
-    color: #bfbfbf;
+    color: #ec9bc3;
 }
 
 .controls,
@@ -83,7 +86,7 @@ li {
 }
 
 .filters span.active {
-    color: #3C87FF;
+    color: #cb68f8;
 }
 
 .controls .clear-btn {
@@ -98,7 +101,7 @@ li {
     letter-spacing: 0.3px;
     pointer-events: none;
     transition: transform 0.25s ease;
-    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,15,213,1) 0%, rgba(141,0,255,1) 81%);
 }
 
 .clear-btn.active {
