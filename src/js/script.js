@@ -1,7 +1,7 @@
-const taskInput = document.querySelector(".task-input input"),
+const taskInput = document.querySelector(".task__input input"),
   filters = document.querySelectorAll(".filters span"),
-  clearAll = document.querySelector(".clear-btn"),
-  taskBox = document.querySelector(".task-box");
+  clearAll = document.querySelector(".clear__btn"),
+  taskBox = document.querySelector(".task__box");
 let editId,
   isEditTask = false,
   todos = JSON.parse(localStorage.getItem("todo-list"));
